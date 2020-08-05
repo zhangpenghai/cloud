@@ -1,0 +1,13 @@
+#起个名称
+spring:
+  application:
+    name: eureka-server
+#改端口
+server:
+  port: 8761
+#是否将自己注册到eureka-server当中。默认为true
+eureka:
+  client:
+    register-with-eureka: false
+    #是否从rureka-server注册服务中心中获取注册信息，默认为true
+    fetch-registry: true
