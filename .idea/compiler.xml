@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="producer-server (1)" />
-        <module name="eureka-server" />
         <module name="producer-server" />
-        <module name="eureka_client" />
+        <module name="eureka-server" />
+        <module name="producer-server002" />
         <module name="producer-server001" />
+        <module name="producer-server (1)" />
+        <module name="eureka_client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Eureka Server" target="1.8" />
       <module name="eureka_client" target="1.8" />
-      <module name="producer-server001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
